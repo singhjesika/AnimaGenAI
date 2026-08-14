@@ -1,7 +1,7 @@
 from app.config import IMAGE_OUT_DIR, CLIP_OUT_DIR, FINAL_OUT_DIR
-from app.core.prompt_parser import build_scene_prompts
-from app.core.video_animator import animate_scenes
-from app.core.stitcher import stitch_clips
+from app.duration.prompt_parser import build_scene_prompts
+from app.duration.video_animator import animate_scenes
+from app.duration.stitcher import stitch_clips
 from app.utils.file_utils import new_run_id, run_subdir
 from app.utils.logger import get_logger
 

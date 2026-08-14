@@ -1,6 +1,6 @@
 import streamlit as st
 from app.config import DURATION_PRESETS, STYLE_CHECKPOINTS
-from app.core.pipeline import run_pipeline
+from app.duration.pipeline import run_pipeline
 
 st.set_page_config(page_title="Animux", page_icon="🎬", layout="centered")
 
