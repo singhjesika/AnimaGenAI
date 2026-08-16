@@ -9,9 +9,9 @@ CLIP_OUT_DIR = BASE_DIR / "outputs" / "clips"
 FINAL_OUT_DIR = BASE_DIR / "outputs" / "final"
 
 STYLE_CHECKPOINTS = {
-    "anime": "Linaqruf/anything-v3.0",
+    "anime": "stablediffusionapi/anything-v5",
     "cartoon": "stablediffusionapi/toonyou",
-    "realistic-lite": "runwayml/stable-diffusion-v1-5",
+    "realistic-lite": "stable-diffusion-v1-5/stable-diffusion-v1-5",
 }
 
 DURATION_PRESETS = {
